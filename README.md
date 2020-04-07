@@ -16,6 +16,9 @@ default-http-login-hunter.sh http://10.10.0.1:9999/
 
 # Example with a list of URLs:
 default-http-login-hunter.sh urls.txt
+
+# To get the latest fingerprints:
+default-http-login-hunter.sh update
 ```
 
 For more information, visit https://www.infosecmatter.com/hunter-of-default-logins-web-http/
