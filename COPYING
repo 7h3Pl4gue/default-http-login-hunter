@@ -1,9 +1,7 @@
 
-This file describes the terms under which NNdefaccts can be distributed.
-
+This file describes the terms under which NNdefaccts and default-http-login-hunter can be distributed.
 
 --------------------------------------------------------------------------
-
 
 NNdefaccts is Copyright (c) 2012-2019 by nnposter
 (nnposter /at/ users.sourceforge.net, <https://github.com/nnposter>),
@@ -22,6 +20,26 @@ conversely, licensing NNdefaccts does not cover Nmap.
 Do not modify or distribute the NNdefaccts dataset beyond what its license
 allows.  See <https://github.com/nnposter/nndefaccts/blob/master/COPYING>.
 
+--------------------------------------------------------------------------
+
+The default-http-login-hunter is Copyright (c) 2020 by InfosecMatter
+(dev /at/ infosecmatter.com), a party separate from nnposter, Fyodor,
+Nmap Project, and Insecure.Com, LLC.
+
+The default-http-login-hunter is free software: you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version.
+
+Note that default-http-login-hunter is licensed separately from Nmap. By
+obtaining a custom license for Nmap you are not automatically entitled to
+modify or distribute the default-http-login-hunter files to the same extent
+as Nmap itself and, conversely, licensing default-http-login-hunter does
+not cover Nmap.
+
+Do not modify or distribute the default-http-login-hunter beyond what its
+license allows. See
+<https://github.com/InfosecMatter/default-http-login-hunter/blob/master/COPYING>.
 
 --------------------------------------------------------------------------
 
