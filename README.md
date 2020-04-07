@@ -3,6 +3,21 @@
 
 The **default-http-login-hunter.sh** is a tool capable of checking more then 380 different web interfaces for default credentials. It is based on the [NNdefaccts](https://github.com/nnposter/nndefaccts) alternate fingerprint dataset maintained by nnposter.
 
+Examples of supported web interfaces:
+
+- Network devices (3Com, Asus, Cisco, D-Link, F5, Nortel..)
+- Video cameras (AXIS, GeoVision, Hikvision, Sanyo..)
+- Application servers (Apache Tomcat, JBoss EAP..)
+- Monitoring software (Cacti, Nagios, OpenNMS..)
+- Server management (Dell iDRAC, HP iLO..)
+- Web servers (WebLogic, WebSphere..)
+- Printers (Kyocera, Sharp, Xerox..)
+- IP Phones (Cisco, Polycom..)
+- Citrix, NAS4Free, ManageEngine, VMware..
+
+For a full list see the [list.txt](https://github.com/InfosecMatter/default-http-login-hunter/blob/master/list.txt)
+
+## Usage and examples
 
 ```
 # Usage:
