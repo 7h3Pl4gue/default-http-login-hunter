@@ -38,3 +38,5 @@ default-http-login-hunter.sh update
 
 For more information, visit https://www.infosecmatter.com/hunter-of-default-logins-web-http/
 
+## Thanks
+Big thanks to nnposter for his awesome NNdefacts dataset without which this would not be possible and also for his contributions to the Nmap project. Thank you nnposter!
