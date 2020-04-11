@@ -94,7 +94,7 @@ check_default_http_login() {
   sed -i "${http_nse_script_copy}" -e "s/^portrule =.*/portrule = shortport.port_or_service( {${port}}, {\"http\", \"https\"}, \"tcp\", \"open\")/"
   
   echo "`date`: trying default http logins on ${proto}://${host}:${port}/"
-  nmap -sT -p ${port} -Pn -n --script ${http_nse_script_copy} --script-args http-default-accounts.fingerprintfile=${nndefaccts_fingerprints} ${host} >"${out}" 2>&1
+  nmap -sT -p ${port} -Pn -n -d --script ${http_nse_script_copy} --script-args http-default-accounts.fingerprintfile=${nndefaccts_fingerprints} ${host} >"${out}" 2>&1
 
   # Display output
   if [ $((verbose)) -le 0 ]; then
