@@ -36,7 +36,7 @@ default-http-login-hunter.sh urls.txt
 default-http-login-hunter.sh update
 ```
 
-For more information, visit https://www.infosecmatter.com/hunter-of-default-logins-web-http/
+For more information, visit https://www.infosecmatter.com/default-password-scanner-default-http-login-hunter-sh/
 
 ## Thanks
 Big thanks to nnposter for his awesome NNdefacts dataset without which this would not be possible and also for his contributions to the Nmap project. Thank you nnposter!
